@@ -23,5 +23,14 @@ int main() {
         cout << "Blood Pressure: High (Risk) - Monitor regularly and seek medical advice.\n";
     }
 
+    // Blood Sugar check
+    if (sugarLevel < 70) {
+        cout << "Blood Sugar: Low (Hypoglycemia risk).\n";
+    } else if (sugarLevel >= 70 && sugarLevel <= 120) {
+        cout << "Blood Sugar: Normal range.\n";
+    } else {
+        cout << "Blood Sugar: High (Hyperglycemia risk).\n";
+    }
+
     return 0;
 }
