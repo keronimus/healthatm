@@ -32,5 +32,6 @@ int main() {
         cout << "Blood Sugar: High (Hyperglycemia risk).\n";
     }
 
+    cout << "\nThank you for using AI Health ATM.\n";
     return 0;
 }
